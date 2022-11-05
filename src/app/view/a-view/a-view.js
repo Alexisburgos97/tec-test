@@ -1,4 +1,5 @@
 import View from "../../../core/view/view";
+import BView from "../b-view/b-view";
 import Utils from "../../../core/utils";
 import html from "./a-view.html";
 import "./a-view..scss";
@@ -31,7 +32,7 @@ export default class AView extends View {
 
             if( isNaN(value) ) value = 0;
 
-            this.end(  );
+            this.end( new BView(value).start() );
 
         });
 
