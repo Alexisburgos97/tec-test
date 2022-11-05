@@ -1,0 +1,56 @@
+.c-view {
+
+  .text-container {
+    font-size: 50px;
+    width: 100%;
+    top:20%;
+    text-align: center;
+    position: relative;
+  }
+
+  .box-vista-c{
+    display: inline-block;
+    background: #aeb044;
+    font-weight: bold;
+    padding: 15px;
+    border: 2px solid #818d00;
+    border-radius: 6px;
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .box-vista-c1{
+    background: #b7a8a8;
+    color: #af4040;
+    border: 2px solid #b7a8a8;
+
+    .h3VistaC{
+      color: #c669c9;
+    }
+
+  }
+
+  .box-vista-c2{
+    background: #37aeb9;
+    color: #0a94a6;
+    border: 2px solid #016596;
+
+    .h3VistaC{
+      color: #00288d;
+    }
+
+  }
+
+  .buttonVistaCSwap{
+    width: 20%;
+  }
+  .buttonVistaCReiniciar{
+    width: 20%;
+  }
+  .buttonVistaCSiguiente{
+    width: 20%;
+  }
+
+}

@@ -1,4 +1,5 @@
 import View from "../../../core/view/view";
+import CView from "../c-view/c-view";
 import html from "./b-view.html";
 import "./b-view..scss";
 
@@ -42,7 +43,7 @@ export default class BView extends View {
 
             value = this.value + this.valueDefault;
 
-            this.end();
+            this.end( new CView(value).start() );
         });
 
     }

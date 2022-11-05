@@ -22,9 +22,10 @@ export default class AView extends View {
 
     async buscar(){
 
+        let formVistaA = document.getElementById('formVistaA');
         let value = '';
 
-        document.getElementById('buttonVistaASiguiente').addEventListener('click', (e) => {
+        formVistaA.onsubmit = (e) => {
 
             value = document.getElementById('inputVistaA').value != '' ?
                     Number(document.getElementById('inputVistaA').value) :
@@ -34,7 +35,7 @@ export default class AView extends View {
 
             this.end( new BView(value).start() );
 
-        });
+        }
 
     }
 
