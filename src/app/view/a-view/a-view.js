@@ -1,6 +1,5 @@
 import View from "../../../core/view/view";
 import BView from "../b-view/b-view";
-import Utils from "../../../core/utils";
 import html from "./a-view.html";
 import "./a-view..scss";
 

@@ -1,10 +1,8 @@
 import View from "../../../core/view/view";
 import AView from "../a-view/a-view";
-import Utils from "../../../core/utils";
 import html from "./c-view.html";
-import cView from "../../app";
-import "./c-view..scss";
 import DView from "../d-view/d-view";
+import "./c-view..scss";
 
 export default class CView extends View {
 
