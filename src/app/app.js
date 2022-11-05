@@ -1,4 +1,7 @@
 import TextView from "./view/text-view/text-view";
+import AView from "./view/a-view/a-view";
+
+
 
 export default class App {
 
@@ -11,5 +14,8 @@ export default class App {
         await (new TextView("proyecto")).start();
         await (new TextView("funciona")).start();
         await (new TextView("correctamente!")).start();
+
+        await (new AView()).start();
+
     }
 }
