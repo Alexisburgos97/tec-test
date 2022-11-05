@@ -4,6 +4,7 @@ import Utils from "../../../core/utils";
 import html from "./c-view.html";
 import cView from "../../app";
 import "./c-view..scss";
+import DView from "../d-view/d-view";
 
 export default class CView extends View {
 
@@ -72,7 +73,7 @@ export default class CView extends View {
         });
 
         document.getElementById('buttonVistaCSiguiente').addEventListener('click', (e) => {
-            this.end( );
+            this.end( new DView().start() );
         });
 
     }
